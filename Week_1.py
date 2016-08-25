@@ -65,7 +65,7 @@ for i in range(10): #10 Lines
 			x = x + "e"
 		elif x[j] == "e":
 			x = x + "!"
-		else:
+		else: #Handles the last set of probabilities, the ones based on "!"
 			if rand < 11:
 				x = x + "!"
 			elif rand > 30:
