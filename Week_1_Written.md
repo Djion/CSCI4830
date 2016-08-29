@@ -18,8 +18,11 @@ In the end you would have a list of connected components and their associated no
 To do this with an adjacency matrix you would simply go row by row and do your search. For the example graph from figure 2.2 we have:
 
 0 1 1 0
+
 1 0 1 1
+
 1 1 0 1
+
 0 1 1 0
 
 With the algorithm we would DFS this matrix. We start at row 1 and see that 1 is first connected to 2, we mark 1 as visted and go to row 2. We see 2 is connected to 3 and mark 2 as visited and go to row 3. We see 3 is connected to 1 which has already been visited, we then see that 3 is connected to 4. We mark 3 as visited and go to 4. We see 4 is connected to 2 and 3 which are both visted. We go back to node 2 and see it is connected to node 4 which has been visited. We go back to node 1 and see it is also connected to node 3 which has been visited. All connections in this DFS have been visited and a cycle of our algorithm has been completed. 
