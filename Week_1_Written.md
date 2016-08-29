@@ -1,7 +1,9 @@
+## Alex Ring
+## Alri7215
+## Alri7215@colorado.edu
+## Week 1
+
 # Exercise 2.2
-
-# Alex Ring 8-28-16
-
 * Exercise 2.2 : For an NxN symmetric adjacency matrix A, describe an algorithm to find connected components. You may wish to examine connected components.m
 
 Answer
